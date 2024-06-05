@@ -289,28 +289,32 @@
 
     .hero{
         gap: 0.01em;
-        overflow: none;
-        
          
     }
     .title {
-
-        font-size: 25px;
-        font-weight: 200;
-        line-height: 40px;
+            margin-bottom: -20px;
+        font-size: 20px;
+        font-weight: 450;
+        line-height: 60px;
        
     }
     .sub-tittle{
-        font-size: 18px;
-
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 20px;
+        margin-bottom: 0;
     
     }
     .desc{
-        font-size: 10px;
-        letter-spacing: 0.5px;
-        line-height: 13px;
-      
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 14x;
     
+    }
+    .imgg{
+        width: 120px;
+    
+       
     }
 
     .reserve-btn {
@@ -322,18 +326,7 @@
         font-weight: 300;
         padding: 2em;
     }
-   .imgg{
    
-   width: 100%;
-   
-   }
-   .reserve-btn .btn {
-    padding: 2px;
-    font-size: 10px;
-    font-weight: 300;
-}
-    
-
 
     
 }
