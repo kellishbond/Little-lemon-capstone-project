@@ -155,7 +155,7 @@ li{
         justify-content: center;
         text-align: center;
         justify-content: center;
-        margin-bottom: 40spx;
+        margin-bottom: 40px;
     
     }
     .footer p{
@@ -191,5 +191,56 @@ li{
 
     }
     
+
+}
+
+@media (max-width:414px){
+    
+    .footer{
+        display: block;
+        align-self:center ;
+        justify-content: center;
+        gap: 5em;
+        padding: 20px;
+        background-color: #EDEFEE;
+        
+    }
+    
+    
+    
+    .navtext{
+        justify-content: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    
+    }
+    .footer p{
+       font-size: 20px;
+       font-weight: 600;
+       color: black;
+        
+    }
+    
+   
+    
+    
+    li{
+        list-style: none;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    
+    .footer img{
+       position: relative;
+        width: 100px;
+        display: none;
+
+    }
+    
+
 
 }

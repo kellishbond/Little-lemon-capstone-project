@@ -164,3 +164,20 @@ p{
 
 
 }
+
+
+@media (max-width:414px){
+    .card{
+        width:250px;
+        gap: 1em;
+        height: 350px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+   
+   
+
+
+}

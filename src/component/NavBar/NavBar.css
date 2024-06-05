@@ -157,3 +157,12 @@
         gap: 12em;
      }
 }
+
+
+@media (max-width:414px) {
+    .header{
+        gap: 10em;
+        width: 100%;
+        padding-right: 100%;
+     }
+}

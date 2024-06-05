@@ -284,3 +284,58 @@
 }
 
 
+
+@media (max-width:414px) {
+
+    .hero{
+        gap: 0.01em;
+        overflow: none;
+        
+         
+    }
+    .title {
+
+        font-size: 25px;
+        font-weight: 200;
+        line-height: 40px;
+       
+    }
+    .sub-tittle{
+        font-size: 18px;
+
+    
+    }
+    .desc{
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        line-height: 13px;
+      
+    
+    }
+
+    .reserve-btn {
+        background-color: #F4CE14;
+        border-radius: 14px;
+        font-family: 'Roboto', sans-serif;
+        color: #040404;
+        font-size: 15px;
+        font-weight: 300;
+        padding: 2em;
+    }
+   .imgg{
+   
+   width: 100%;
+   
+   }
+   .reserve-btn .btn {
+    padding: 2px;
+    font-size: 10px;
+    font-weight: 300;
+}
+    
+
+
+    
+}
+
+

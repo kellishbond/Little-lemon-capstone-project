@@ -115,3 +115,26 @@
 
 
 }
+
+
+@media (max-width:414px){
+    .special{
+        gap : 1em;
+      
+        
+    }
+
+    .tittle{
+        font-size: 10px;
+        font-weight: 250;
+    
+        
+    }
+    .btn{
+        border-radius: 14px;
+        font-size: 10px;
+        font-weight: 250;
+        
+    }
+    
+}

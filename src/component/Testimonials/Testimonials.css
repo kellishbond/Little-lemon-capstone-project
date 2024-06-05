@@ -162,3 +162,13 @@
     }
 
 }
+@media (max-width:414px){
+    .test-pic{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+       
+        
+    }
+
+}
