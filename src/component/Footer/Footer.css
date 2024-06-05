@@ -1,0 +1,195 @@
+.footer{
+    display: flex;
+    align-self:center ;
+    justify-content: center;
+    gap: 5em;
+    padding: 20px;
+    background-color: #EDEFEE;
+    
+}
+
+
+
+.navtext{
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.footer p{
+   font-size: 20px;
+   font-weight: 700;
+   color: black;
+    
+}
+
+ul{
+    display: block;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.footer img{
+    width: 100px;
+}
+
+
+@media (max-width:800px) {
+
+    .footer{
+        gap: 4em;
+        padding: 15px;
+
+    }
+    
+    
+    
+    .footer p{
+       font-size: 15px;
+       font-weight: 600;
+
+        
+    }
+    
+    ul{
+    
+        margin-top: 10px;
+    }
+    
+    
+    li{
+       
+        font-size: 15px;
+        font-weight: 400;
+        padding: 4px;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    .footer img{
+        width: 100px;
+    }
+  
+ 
+    
+    
+}
+
+@media (max-width:576px){
+
+
+    .footer{
+        gap: 3em;
+        padding: 20px;
+
+    }
+    
+    
+    
+    .footer p{
+       font-size: 15px;
+       font-weight: 600;
+
+        
+    }
+    
+    ul{
+    
+        margin-top: 10px;
+    }
+    
+    
+    li{
+       
+        font-size: 18px;
+        font-weight: 400;
+        padding: 4px;
+    }
+    
+    .footer img{
+        width: 80px;
+        height: 100px;
+    }
+  
+ 
+    
+    
+}
+
+@media (max-width:459px) {
+
+    .footer{
+        display: block;
+        align-self:center ;
+        justify-content: center;
+        gap: 5em;
+        padding: 20px;
+        background-color: #EDEFEE;
+        
+    }
+    
+    
+    
+    .navtext{
+        justify-content: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 40spx;
+    
+    }
+    .footer p{
+       font-size: 25px;
+       font-weight: 700;
+       color: black;
+        
+    }
+    
+    ul{
+        display: block;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    
+    li{
+        list-style: none;
+        font-size: 17px;
+        font-weight: 500;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    
+    .footer img{
+       position: absolute;
+        width: 100px;
+        bottom: -3600px;
+        right: -1%;
+
+    }
+    
+
+}
