@@ -3,7 +3,7 @@ import img1 from '../../assets/images/reviewer1.png'
 import img2 from '../../assets/images/reviewer2.png'
 import img3 from '../../assets/images/reviewer4.png'
 
-import React from 'react'
+
 
 const Testimonials = () => {
   return (
